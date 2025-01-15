@@ -6,7 +6,7 @@
 #    By: abetemps <abetemps@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/11 11:53:48 by abetemps          #+#    #+#              #
-#    Updated: 2025/01/14 17:10:05 by abetemps         ###   ########.fr        #
+#    Updated: 2025/01/15 21:41:35 by abetemps         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -116,7 +116,7 @@ all : $(NAME)
 
 $(NAME): $(DIR_OBJ) $(OBJECTS)
 	ar rcs $(NAME) $(OBJECTS)
-	echo ✨ $(NAME) compiled ✨
+	@echo ✨ $(NAME) compiled ✨
 
 clean:
 	rm -rf $(DIR_OBJ)

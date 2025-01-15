@@ -6,11 +6,11 @@
 /*   By: abetemps <abetemps@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/15 22:39:13 by abetemps          #+#    #+#             */
-/*   Updated: 2025/01/13 19:21:11 by abetemps         ###   ########.fr       */
+/*   Updated: 2025/01/14 16:32:20 by abetemps         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "improved_libft.h"
+#include "lib_improved.h"
 
 static char	ft_slice(unsigned int nb, int index)
 {

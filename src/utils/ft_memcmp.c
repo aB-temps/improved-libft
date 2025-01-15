@@ -6,11 +6,11 @@
 /*   By: abetemps <abetemps@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/13 17:58:27 by abetemps          #+#    #+#             */
-/*   Updated: 2025/01/13 19:21:11 by abetemps         ###   ########.fr       */
+/*   Updated: 2025/01/14 16:32:20 by abetemps         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "improved_libft.h"
+#include "lib_improved.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

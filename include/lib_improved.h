@@ -1,17 +1,17 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   improved_libft.h                                   :+:      :+:    :+:   */
+/*   lib_improved.h                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: abetemps <abetemps@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/13 12:03:41 by abetemps          #+#    #+#             */
-/*   Updated: 2025/01/13 12:04:59 by abetemps         ###   ########.fr       */
+/*   Updated: 2025/01/14 16:18:53 by abetemps         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef IMPROVED_LIBFT_H
-# define IMPROVED_LIBFT_H
+#ifndef LIB_IMPROVED_H
+# define LIB_IMPROVED_H
 
 // Libraries ============================================================
 # include <fcntl.h>

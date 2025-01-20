@@ -6,7 +6,7 @@
 #    By: abetemps <abetemps@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/11 11:53:48 by abetemps          #+#    #+#              #
-#    Updated: 2025/01/15 21:41:35 by abetemps         ###   ########.fr        #
+#    Updated: 2025/01/20 12:13:50 by abetemps         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -88,7 +88,7 @@ F_UTILS :=	ft_atoi.c \
 # DIR ==================================================================================
 DIR_INC = include/
 DIR_SRC = src/
-DIR_OBJ = $(addsuffix objects/, $(DIR_SRC))
+DIR_OBJ = $(addsuffix objects, $(DIR_SRC))
 $(foreach comp,$(COMPONENTS),$(eval $(call generate_var_sources_dir,$(comp))))
 
 # INCLUDE ==============================================================================
